@@ -1,12 +1,11 @@
 import './App.css'
+import SimpleForm from './components/SimpleForm/SimpleForm'
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <SimpleForm></SimpleForm>
     </>
   )
 }
